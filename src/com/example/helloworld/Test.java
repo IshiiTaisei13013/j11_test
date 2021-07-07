@@ -28,7 +28,7 @@ public class Test {
         int num = 1;
         int cnt = 0;
         while(1000000000 > num){
-            System.out.println(cnt + "回目"+ num +"：まだループは終わりません!????");
+            System.out.println(cnt + "回目"+ num +"：まだループは終わりません!?!!?");
             num *= 2;
             cnt++;
         }
