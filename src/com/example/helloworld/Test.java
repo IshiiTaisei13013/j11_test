@@ -15,7 +15,7 @@ public class Test {
         System.out.println("great!!");
     }
     public void calc_double(){
-        System.out.println("2の16乗まで計算します");
+        System.out.println("2の16乗まで計算します!!!!!");
         int num = 1;
 
         for(int i = 1 ;i <= 16; i++){
