@@ -11,16 +11,23 @@ public class HelloWorld {
         //Student aa = new Student("aa",10);
         //aa.printScore();
 
-        Student okada = new Student("okada");
-        okada.printScore();
+//        Student okada = new Student("okada");
+//        okada.printScore();
+//
+//        final int STATUS_NOTHING = 0;
+//        final int STATUS_VENOM = 1;
+//        final int STATUS_STAN = 2;
+//        final int STATUS_DEATH = 3;
+//
+//        Hero suga = new Hero("Suga",9999,9999,999,999,999,STATUS_NOTHING);
+//        suga.printStatus();
 
-        final int STATUS_NOTHING = 0;
-        final int STATUS_VENOM = 1;
-        final int STATUS_STAN = 2;
-        final int STATUS_DEATH = 3;
+        SampleClass sample = new SampleClass();
+        String response = sample.action();
 
-        Hero suga = new Hero("Suga",9999,9999,999,999,999,STATUS_NOTHING);
-        suga.printStatus();
+        System.out.println(response);
+
+
 
 
     }
